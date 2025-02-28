@@ -1,0 +1,21 @@
+{
+	"MQTT" :
+		{
+			"mqtt_broker"	: "127.0.0.1",
+			"mqtt_port"		: 1883,
+			"mqtt_topic" 	: "export_db_cloud",
+			"mqtt_username"	: "",
+			"mqtt_password"	: ""
+		},
+	"DB" :
+		{	"db_name"		: "test_bifi_data",
+			"db_user"		: "sa",
+			"db_pw"			: "Tesvolt2024!",
+			"db_host"		: "127.0.0.1",
+			"db_port"		: "5432"
+		},
+	"ConData" :
+		{
+			"update_interval"	: 5
+		}
+}
